@@ -7,7 +7,8 @@ const app = express();
 app.use(express.json());
 
 app.get('/products', (req, res) => {
-    res.json(getProductList())
+    let type = req.query.type || null
+    res.json(getProductList(type))
 });
 app.get('/products/:productId', (req, res) => {
     res.json(getProduct(req.params.productId))

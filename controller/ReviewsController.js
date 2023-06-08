@@ -5,7 +5,7 @@ export const ReviewsList = {
     filter(productId){
         return {
             ...this,
-            reviews: this.reviews.filter(el => el.productId == productId)
+            reviews: this.reviews.filter(el => el.productID == productId)
         }
     }
 }

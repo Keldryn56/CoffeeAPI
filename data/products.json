@@ -1,18 +1,243 @@
 [
     {
-        "id" : 0,
-        "name": "Cappucino",
-        "type": "Hot",
-        "description": "Un classique jamais égalé",
-        "categories": ["Espresso", "Milk"],
-        "ratings": 4.5
+      "id": 1,
+      "name": "Espresso",
+      "description": "Un concentré de café noir et corsé, servi en petite quantité.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Espresso"]
     },
     {
-        "id" : 1,
-        "name": "Expresso",
-        "type": "Iced",
-        "description": "Un café de caractère",
-        "categories": ["Espresso"],
-        "ratings": 4.8
+      "id": 2,
+      "name": "Café au lait",
+      "description": "Un mélange équilibré de café et de lait chaud.",
+      "type": ["Hot"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait"]
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "description": "Un espresso avec un tiers de lait chaud et un tiers de mousse de lait.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Espresso", "Lait", "Mousse de lait"]
+    },
+    {
+      "id": 4,
+      "name": "Macchiato",
+      "description": "Un espresso avec une touche de lait chaud.",
+      "type": ["Hot"],
+      "ratings": 3.5,
+      "categories": ["Espresso", "Lait"]
+    },
+    {
+      "id": 5,
+      "name": "Iced Coffee",
+      "description": "Un café froid servi sur glace.",
+      "type": ["Iced"],
+      "ratings": 4.5,
+      "categories": ["Café", "Glaçons"]
+    },
+    {
+      "id": 6,
+      "name": "Frappé",
+      "description": "Un café glacé mélangé avec de la glace et du lait.",
+      "type": ["Iced"],
+      "ratings": 5,
+      "categories": ["Café", "Glaçons", "Lait"]
+    },
+    {
+      "id": 7,
+      "name": "Mocha",
+      "description": "Un mélange de café, de lait et de chocolat.",
+      "type": ["Hot", "Iced"],
+      "ratings": 4,
+      "categories": ["Café", "Lait", "Chocolat"]
+    },
+    {
+      "id": 8,
+      "name": "Latte",
+      "description": "Un espresso avec une généreuse quantité de lait chaud.",
+      "type": ["Hot"],
+      "ratings": 4.5,
+      "categories": ["Espresso", "Lait"]
+    },
+    {
+      "id": 9,
+      "name": "Americano",
+      "description": "Un espresso allongé avec de l'eau chaude.",
+      "type": ["Hot", "Iced"],
+      "ratings": 4,
+      "categories": ["Espresso", "Eau"]
+    },
+    {
+      "id": 10,
+      "name": "Caramel Macchiato",
+      "description": "Un espresso avec du lait chaud, de la mousse de lait et du caramel.",
+      "type": ["Hot"],
+      "ratings": 4.5,
+      "categories": ["Espresso", "Lait", "Mousse de lait", "Caramel"]
+    },
+    {
+      "id": 11,
+      "name": "Flat White",
+      "description": "Un espresso avec une quantité égale de lait chaud et de mousse de lait.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Espresso", "Lait", "Mousse de lait"]
+    },
+    {
+      "id": 12,
+      "name": "Iced Latte",
+      "description": "Un café froid mélangé avec du lait et servi sur glace.",
+      "type": ["Iced"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait", "Glaçons"]
+    },
+    {
+      "id": 13,
+      "name": "Turkish Coffee",
+      "description": "Un café moulu finement bouilli dans de l'eau avec du sucre.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Eau", "Sucre"]
+    },
+    {
+      "id": 14,
+      "name": "Vienna",
+      "description": "Un café noir avec de la crème fouettée et du chocolat saupoudré.",
+      "type": ["Hot"],
+      "ratings": 3.5,
+      "categories": ["Café", "Crème fouettée", "Chocolat"]
+    },
+    {
+      "id": 15,
+      "name": "Affogato",
+      "description": "Une boule de glace à la vanille servie avec un espresso chaud.",
+      "type": ["Hot"],
+      "ratings": 4.5,
+      "categories": ["Espresso", "Glace à la vanille"]
+    },
+    {
+      "id": 16,
+      "name": "Irish Coffee",
+      "description": "Un café avec du whisky irlandais, de la crème fouettée et du sucre brun.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Whisky irlandais", "Crème fouettée", "Sucre brun"]
+    },
+    {
+      "id": 17,
+      "name": "Mochaccino",
+      "description": "Un mélange de café, de lait, de chocolat et de crème fouettée.",
+      "type": ["Hot"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait", "Chocolat", "Crème fouettée"]
+    },
+    {
+      "id": 18,
+      "name": "Decaf",
+      "description": "Un café décaféiné pour ceux qui préfèrent moins de caféine.",
+      "type": ["Hot"],
+      "ratings": 3.5,
+      "categories": ["Café"]
+    },
+    {
+      "id": 19,
+      "name": "Café Miel",
+      "description": "Un café avec du lait chaud et du miel sucré.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Lait", "Miel"]
+    },
+    {
+      "id": 20,
+      "name": "Iced Mocha",
+      "description": "Un café froid mélangé avec du lait, du chocolat et servi sur glace.",
+      "type": ["Iced"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait", "Chocolat", "Glaçons"]
+    },
+    {
+      "id": 21,
+      "name": "Hazelnut Latte",
+      "description": "Un café avec du lait chaud et une saveur de noisette.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Lait", "Noisette"]
+    },
+    {
+      "id": 22,
+      "name": "Iced Caramel Macchiato",
+      "description": "Un café froid avec du lait, de la mousse de lait et du caramel, servi sur glace.",
+      "type": ["Iced"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait", "Mousse de lait", "Caramel", "Glaçons"]
+    },
+    {
+      "id": 23,
+      "name": "Black Eye",
+      "description": "Un café noir avec deux doses d'espresso.",
+      "type": ["Hot", "Iced"],
+      "ratings": 4,
+      "categories": ["Café", "Espresso"]
+    },
+    {
+      "id": 24,
+      "name": "Cortado",
+      "description": "Un espresso avec une petite quantité de lait chaud.",
+      "type": ["Hot"],
+      "ratings": 4.5,
+      "categories": ["Espresso", "Lait"]
+    },
+    {
+      "id": 25,
+      "name": "Café con Leche",
+      "description": "Un café fort avec du lait chaud.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Lait"]
+    },
+    {
+      "id": 26,
+      "name": "Espresso Macchiato",
+      "description": "Un espresso avec une petite quantité de lait chaud et de mousse de lait.",
+      "type": ["Hot"],
+      "ratings": 3.5,
+      "categories": ["Espresso", "Lait", "Mousse de lait"]
+    },
+    {
+      "id": 27,
+      "name": "Iced Caramel Latte",
+      "description": "Un café froid avec du lait, du caramel et servi sur glace.",
+      "type": ["Iced"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait", "Caramel", "Glaçons"]
+    },
+    {
+      "id": 28,
+      "name": "Vanilla Latte",
+      "description": "Un café avec du lait chaud et une saveur de vanille.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Lait", "Vanille"]
+    },
+    {
+      "id": 29,
+      "name": "Iced Hazelnut Latte",
+      "description": "Un café froid avec du lait, une saveur de noisette et servi sur glace.",
+      "type": ["Iced"],
+      "ratings": 4.5,
+      "categories": ["Café", "Lait", "Noisette", "Glaçons"]
+    },
+    {
+      "id": 30,
+      "name": "Turmeric Latte",
+      "description": "Un café au lait chaud avec du curcuma, du gingembre et des épices.",
+      "type": ["Hot"],
+      "ratings": 4,
+      "categories": ["Café", "Lait", "Curcuma", "Gingembre", "Épices"]
     }
-] 
+  ]
+  
