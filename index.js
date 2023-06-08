@@ -1,11 +1,15 @@
 import {getProductList, getProduct} from './controller/ProductController.js'
 import { ReviewsList } from './controller/ReviewsController.js';
+import getStores from './controller/StoreController.js';
 import express from 'express' 
 
 const app = express();
 
 app.use(express.json());
 
+app.get('/stores', (req, res) => {
+    res.json(getStores())
+});
 app.get('/products', (req, res) => {
     let type = req.query.type || null
     res.json(getProductList(type))
