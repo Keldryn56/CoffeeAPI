@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 0,
+        "name": "Cappucino",
+        "type": "Hot",
+        "description": "Un classique jamais égalé",
+        "categories": ["Espresso", "Milk"],
+        "ratings": 4.5
+    },
+    {
+        "id" : 1,
+        "name": "Expresso",
+        "type": "Iced",
+        "description": "Un café de caractère",
+        "categories": ["Espresso"],
+        "ratings": 4.8
+    }
+] 

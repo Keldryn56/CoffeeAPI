@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "productId": 0,
+        "title": "Amazing taste",
+        "description": "Tasting like home, would buy again XOXOXO",
+        "name": "Paula",
+        "rating": 4.5,
+        "date" : "2023-04-23T18:25:43.511Z"
+    },
+    {
+        "id": 1,
+        "productId": 1,
+        "title": "Perfect...",
+        "description": "Delicious, i tasted a Columbian arabica and it tasted like heaven",
+        "name": "Paul",
+        "rating": 5,
+        "date" : "2023-05-07T18:29:10.511Z"
+    },
+    {
+        "id": 2,
+        "productId": 1,
+        "title": "Nice experience",
+        "description": "My friend told me a lot about this drink, it's cheap, fast to drink and very tasty",
+        "name": "Mei",
+        "rating": 4,
+        "date" : "2023-05-05T13:48:40.511Z"
+    },
+    {
+        "id": 3,
+        "productId": 0,
+        "title": "BOOM",
+        "description": "Explosion of flavours in your mouth",
+        "name": "Louis",
+        "rating": 5,
+        "date" : "2023-05-05T18:55:03.511Z"
+    }
+]
