@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Cafés Espressos",
+        "slug": "espresso",
+        "image": "espresso.png"
+	},
+	{
+		"id": 2,
+		"name": "Cafés au chocolat",
+        "slug": "Chocolat",
+        "image": "moccha.png"
+	},
+    {
+        "id": 3,
+        "name": "Cafés au lait",
+        "slug": "Lait",
+        "image": "lait.png"
+    }
+]
